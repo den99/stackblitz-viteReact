@@ -8,11 +8,12 @@ import books from './ch03/books'
 //import EventBasic from './ch03/02_EventBasic'
 //import StateBasic from './ch03/03_StateBasic'
 //import ForList from './ch03/04_ForList'
-import ForNest from './ch03/05_01_ForNest'
+//import ForNest from './ch03/05_01_ForNest'
+import ForFilter from './ch03/06_ForFilter';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ForNest src={books} />
+    <ForFilter src={books} />
     
   </StrictMode>,
 )
