@@ -26,7 +26,7 @@ createRoot(document.getElementById('root')).render(
     <StyledPanel>
      <p>メンバー募集中！</p>
      <p>ようこそ、WINGSプロジェクトへ！！</p>
-     <MyHello myName="鈴木" /> 
+     StyledPanel.js
     </StyledPanel>    
 
 
