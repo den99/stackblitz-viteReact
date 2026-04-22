@@ -5,8 +5,8 @@ export default function ListTemplate({ src, children }) {
     <dl>
       {src.map(elem => (
         <React.Fragment key={elem.isbn}>
-          {/* {children} */}
-          {children(elem)}
+          {children} 
+          {/*children(elem)*/}
         </React.Fragment>
       ))}
     </dl>
